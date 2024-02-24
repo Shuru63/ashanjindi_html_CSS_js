@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>log in</title>
+    <link rel="stylesheet" href="login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+    <section id="login">
+        <form class="form" id="form">
+            <h1>Shubham</h1>
+            <div class="button" id="button">
+                <div class="sign" id="sign" onclick="opensign()"> Sign up</div>
+                <div class="inform" id="inform">
+                    <i class="fa-solid fa-xmark" onclick="closesign()"></i>
+                    <div class="form-control">
+                        <input type="text" id="fname" placeholder=" First Name">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+                        <small>error input</small>
+                    </div>
+                    <div class="form-control">
+                        <input type="text" id="lname" placeholder=" last Name">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+                        <small>error input</small>
+                    </div>
+                    <div class="form-control">
+                        <input type="email" id="email" placeholder="Gmail">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+                        <small>error input</small>
+                    </div>
+                    <div class="form-control">
+                        <input type="number" id="number" placeholder="phone number">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+                        <small>error input</small>
+                    </div>
+                    <div class="form-control">
+                        <input type="password" id="password" placeholder="password">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+                        <small>error input</small>
+                    </div>
+                    <div class="form-control">
+                        <input type="number" id="zipcode" placeholder="Zip code">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+                        <small>error input</small>
+                    </div>
+                    <p>By clicking below and creating an account, I agree to shubham’s <a href="">Terms of Use</a>
+                        and <a href="">Privacy Policy.</a></p>
+                    <div><button type="submit" value="submit" >Create</button></div>
+                </div>
+
+                <div class="log" id="log" onclick="openlog()">log in</div>
+                <div class="loginform" id="loginform">
+                    <i class="fa-solid fa-xmark" onclick="closelog()"></i>
+                    <div class="form-control">
+                        <input type="email" id="logemail" placeholder="Gmail">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+                        <small>error input</small>
+                    </div>
+                    <div class="form-control">
+                        <input type="password" id="logpassword"placeholder="password">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <i class="fa-sharp fa-solid fa-circle-exclamation"></i>
+                        <small>error input</small>
+                    </div>
+                    <a href="">Forgot password?</a>
+                    <div><button type="submit" value="submit">Log in</button></div>
+                </div>
+
+                <p>By signing up you agree to our <a href="">Terms of Use</a> and <a href="">Privacy Policy.</a></p>
+        </form> 
+
+    <a href="startuphome.html"> go to home</a>
+    </section>
+    <script src="login.js"></script>
+</body>
+
+</html>

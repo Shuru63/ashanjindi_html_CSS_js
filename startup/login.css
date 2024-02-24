@@ -1,0 +1,400 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    outline: 0;
+    text-decoration: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    color: black;
+    font-family: Roboto, Arial, sans-serif;
+    background: url("material startup/pexels-blue-bird-7218019.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+}
+
+#login {
+    padding: 1.5rem;
+    width: 40%;
+    position: absolute;
+    left: 25%;
+    top: 25%;
+    background-color: white;
+    background-clip: padding-box;
+    border: 1px solid #e8ebef;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 1.5rem;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    outline: 0;
+    padding: 2rem 2rem 5rem 2rem;
+}
+
+.form h1 {
+    text-align: center;
+    font-size: 2.1rem;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#login a{
+    color: #000;
+    margin-top: 1.5rem;
+}
+.sign {
+    width: 18rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    border: 1px solid #0d7a5f;
+    background-color: #0d7a5f;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+
+}
+.sign-off {
+    display: none;
+}
+
+.sign :hover {
+    background-color: #055c45;
+
+}
+
+.log {
+    width: 18rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    border: 1px solid #0d7a5f;
+    background: #0d7a5f;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+.log-off{
+    display: none;
+}
+button{
+    width: 18rem;
+    height: 2.5rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    border: 1px solid #0d7a5f;
+    background: #0d7a5f;
+    border-radius: 1rem;
+    margin-top: 1.5rem;
+}
+
+.log :hover {
+    background-color: #055c45;
+
+}
+
+.form p {
+    margin-top: 1.2rem;
+    text-align: center;
+    padding: 0rem 5rem;
+}
+
+.form p a {
+    color: #0d7a5f;
+    font-weight: bold;
+}
+
+.inform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+
+.open-sign {
+    display: inherit;
+}
+
+.inform input {
+    width: 18rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    border: 1px solid #0d7a5f;
+    background: transparent;
+    border-radius: 0.2rem;
+    margin-top: 0.3rem;
+    color: black;
+    margin: 1rem 0rem;
+    padding: 0.5rem;
+}
+.inform-hide{
+    display: none;
+}
+#code {
+    width: 18rem;
+    height: 2.5rem;
+    font-size: 1.9rem;
+    border: 1px solid #0d7a5f;
+    background: transparent;
+    border-radius: 0.3rem;
+}
+.form-control .fa-circle-check {
+color: #0d7a5f;
+display: none;
+position: absolute;
+right: 0%;
+left: 68%;
+
+}
+.form-control .success {
+    color: #0d7a5f;
+    display: contents;
+    }
+.form-control small{
+    color: #af1212;
+    display: none;
+}
+.form-control .fa-sharp{
+    color: #af1212;
+    position: absolute;
+    right: 0%;
+    left: 68%;
+    display: none;
+    }
+    .form-control .error{
+        display: contents;
+    }
+    .form-control .error small{
+         display: contents;
+    }
+.loginform {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: none;
+}
+.loginform-hide{
+    display: none;
+}
+.open-log {
+    display: inherit;
+}
+
+.loginform input {
+    width: 18rem;
+    height: 2.5rem;
+    font-size: 1.2rem;
+    border: 1px solid #0d7a5f;
+    background: transparent;
+    border-radius: 0.2rem;
+    margin-top: 0.3rem;
+    color: black;
+    margin: 1rem 0rem;
+    padding: 0.5rem;
+    display: block;
+}
+
+.loginform a {
+    color: #0d7a5f;
+    font-weight: bold;
+
+}
+
+.loginform a:hover {
+    color: #7a150aeb;
+}
+
+.fa-xmark{
+    border: 2px solid #0d7a5f;
+    padding: 0.5rem;
+}
+
+@media screen and (max-width:900px) {
+    body {
+        width: 100%;
+        height: 100vh;
+        color: black;
+        font-family: Roboto, Arial, sans-serif;
+        background: url("material startup/pexels-blue-bird-7218019.jpg");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+    }
+
+    #login {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        left: 0%;
+        top: 0%;
+        background-color: white;
+        background-clip: none;
+        border: 1px solid #e8ebef;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 1.5rem;
+        -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+        outline: 0;
+        padding: 0rem 2rem 5rem 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .form h1 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .sign  {
+        width: 12rem;
+        height: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .sign-off {
+        display: none;
+    }
+    .log-off{
+        display: none;
+    }
+    .sign :hover {
+        background-color: #055c45;
+
+    }
+
+    .log  {
+        width: 12rem;
+        height: 2rem;
+        font-size: 1.2rem;
+    }
+
+    .log :hover {
+        background-color: #055c45;
+
+    }
+
+    .form p {
+        margin-top: 1.2rem;
+        text-align: center;
+        padding: 0rem 1rem;
+    }
+
+    .form p a {
+        color: #0d7a5f;
+        font-weight: bold;
+    }
+
+    .inform {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: none;
+    }
+
+    .open-sign {
+        display: inherit;
+    }
+
+    .inform input {
+        width: 12rem;
+        height: 2rem;
+        font-size: 1.2rem;
+        border: 1px solid #0d7a5f;
+        background: transparent;
+        border-radius: 0.2rem;
+        margin-top: 0.3rem;
+        color: black;
+        margin: 1rem 0rem;
+        padding: 0.5rem;
+    }
+
+    .loginform {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        display: none;
+    }
+
+    .open-log {
+        display: inherit;
+    }
+
+    .loginform input {
+        width: 12rem;
+        height: 2rem;
+        font-size: 1.2rem;
+        border: 1px solid #0d7a5f;
+        background: transparent;
+        border-radius: 0.2rem;
+        margin-top: 0.3rem;
+        color: black;
+        margin: 1rem 0rem;
+        padding: 0.5rem;
+    }
+}
+
+@media screen and (min-width:9000px) and (max-width:1750px) {
+
+    body {
+        width: 100%;
+        height: 100vh;
+        color: black;
+        font-family: Roboto, Arial, sans-serif;
+        background: url("material startup/pexels-blue-bird-7218019.jpg");
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-repeat: no-repeat;
+      
+
+    }
+
+    #login {
+        padding: 1.5rem;
+        width: 40%;
+        position: absolute;
+        left: 25%;
+        top: 25%;
+        background-color: white;
+        background-clip: padding-box;
+        border: 1px solid #e8ebef;
+        border: 1px solid rgba(0, 0, 0, 0.2);
+        border-radius: 1.5rem;
+        -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+        box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+        outline: 0;
+        padding: 2rem 2rem 5rem 2rem;
+    }
+}
